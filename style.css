@@ -9,5 +9,11 @@ ul {
 }
 
 li {
-  width: 90%;
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .title-li {
+    font-size: 12px;
+  }
 }
